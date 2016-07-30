@@ -1,0 +1,84 @@
+.mdl-demo section.section--footer .section__circle--big {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 8px 32px;
+}
+.mdl-demo .is-small-screen section.section--footer .section__circle--big {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 8px 16px;
+}
+.mdl-demo section.section--footer {
+  padding: 64px 0;
+  margin: 0 -8px -8px -8px;
+}
+.social-btn__twitter {
+  background-image: url('img/twitter.png');
+}
+.social-btn__blogger {
+  background-image: url('img/facebook.png');
+}
+.social-btn__gplus {
+  background-image: url('img/google-plus.png');
+}
+.social-btn__instagram {
+  background-image: url('img/instagram.png');
+}
+.social-btn__youtube {
+  background-image: url('img/youtube.png');
+}
+.demo-blog .mdl-mini-footer {
+  margin-top: 80px;
+  height: 120px;
+  padding: 40px;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+}
+.social-btn {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 16px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  opacity: 0.46;
+  border-radius: 2px;
+}
+
+.card-atletica-juv.mdl-card {
+  width: 100%;
+  height: 320px;
+}
+.card-atletica-juv > .mdl-card__title {
+  color: #fff;
+  background:
+    url('img/juv.jpg')  #46B6AC;
+}
+
+.card-atletica-futsal.mdl-card {
+  width: 100%;
+  height: 320px;
+}
+.card-atletica-futsal > .mdl-card__title {
+  color: #fff;
+  background:
+    url('img/futsal.jpg')  #46B6AC;
+}
+
+.card-atletica-agasalho.mdl-card {
+  width: 100%;
+  height: 320px;
+}
+.card-atletica-agasalho > .mdl-card__title {
+  color: #fff;
+  background:
+    url('img/agasalho.jpg')  #46B6AC;
+}

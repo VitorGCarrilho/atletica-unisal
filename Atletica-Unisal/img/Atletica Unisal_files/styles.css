@@ -1,0 +1,44 @@
+.mdl-demo section.section--footer .section__circle--big {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 8px 32px;
+}
+.mdl-demo .is-small-screen section.section--footer .section__circle--big {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 8px 16px;
+}
+.mdl-demo section.section--footer {
+  padding: 64px 0;
+  margin: 0 -8px -8px -8px;
+}
+.social-btn__twitter {
+  background-image: url('img/twitter.png');
+}
+.social-btn__blogger {
+  background-image: url('img/facebook.png');
+}
+.social-btn__gplus {
+  background-image: url('img/google-plus.png');
+}
+.social-btn__instagram {
+  background-image: url('img/instagram.png');
+}
+.social-btn__youtube {
+  background-image: url('img/youtube.png');
+}
+
+/****?*/
+
+.demo-blog .minilogo {
+  width: 44px;
+  height: 44px;
+  background-image: url('img/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border-radius: 22px;
+  background-color: #F5F5F5;
+}
