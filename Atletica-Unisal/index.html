@@ -28,7 +28,7 @@
 					<a class="mdl-layout__tab is-active" href="index.html">Pagina Inicial</a>
 					<a class="mdl-layout__tab" href="">Galeria</a>
 					<a class="mdl-layout__tab" href="noticias.html">Noticias</a>
-					<a class="mdl-layout__tab" href="">Calendário da Atlética</a>
+					<a class="mdl-layout__tab" href="calendario.html">Calendário da Atlética</a>
 				</nav>
 			</div>
 		</header>
@@ -116,7 +116,7 @@
 						<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
 						<h1 class="mdl-mega-footer--heading">Contato</h1>
 						<ul class="mdl-mega-footer--link-list">
-							<li><a href="#">Leonardo Rios - Presidente</a></li>
+							<li><a href="https://fb.com/leonardo.rios.25" target="_blank">Leonardo Rios - Presidente</a></li>
 							<li><a href="#">Fulano - Vice</a></li>
 							<li><a href="#">Ciclano - Marketing</a></li>
 						</ul>
@@ -133,11 +133,11 @@
 						<input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
 						<h1 class="mdl-mega-footer--heading">Desenvolvedor</h1>
 						<ul class="mdl-mega-footer--link-list">
-							<li><a href="#">Vitor Carrilho</a></li>
+							<li><a href="https://fb.com/VitorGCarrilho" target="_blank">Vitor Carrilho</a></li>
 						</ul>
 						<h1 class="mdl-mega-footer--heading">Designer</h1>
 						<ul class="mdl-mega-footer--link-list">
-							<li><a href="#">Gustavo Reis</a></li>
+							<li><a href="https://www.facebook.com/gusbesurdo" target="_blank">Gustavo Reis</a></li>
 						</ul>
 					</div>
 				</div>
@@ -151,13 +151,13 @@
 					<button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
 						<span class="visuallyhidden">Twitter</span>
 					</button>
-					<button class="mdl-mini-footer--social-btn social-btn social-btn__blogger" href="https://www.facebook.com/VitorGCarrilho">
+					<button onclick="goFacebook('atleticaunisal')" class="mdl-mini-footer--social-btn social-btn social-btn__blogger" href="https://www.facebook.com/VitorGCarrilho">
 						<span class="visuallyhidden">Facebook</span>
 					</button>
 					<button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
 						<span class="visuallyhidden">Google Plus</span>
 					</button>
-					<button class="mdl-mini-footer--social-btn social-btn social-btn__instagram">
+					<button onclick="goInstagram('atleticaunisal')" class="mdl-mini-footer--social-btn social-btn social-btn__instagram">
 						<span class="visuallyhidden">Instagram</span>
 					</button>
 					<button class="mdl-mini-footer--social-btn social-btn social-btn__youtube">
@@ -167,5 +167,17 @@
 			</footer>
 		</main>
 	</div>
+
+	<script type="text/javascript">
+		var goFacebook = function(local){
+			var link = 'https://www.facebook.com/' + local;
+			window.open(link);
+		};
+		var goInstagram = function(local){
+			var link = 'https://www.instagram.com/' + local;
+			window.open(link)
+		};
+	</script>
+
 </body>
 </html>
