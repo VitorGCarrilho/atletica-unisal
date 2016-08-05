@@ -26,86 +26,111 @@
 				<!-- Navigation. We hide it in small screens. -->
 				<nav class="mdl-navigation mdl-layout--large-screen-only">
 					<a class="mdl-layout__tab is-active" href="index.html">Pagina Inicial</a>
-					<a class="mdl-layout__tab" href="">Galeria</a>
+					<a class="mdl-layout__tab" href="galeria.html">Galeria</a>
 					<a class="mdl-layout__tab" href="noticias.html">Noticias</a>
 					<a class="mdl-layout__tab" href="calendario.html">Calendário da Atlética</a>
 				</nav>
 			</div>
 		</header>
 		
-		<div class="mdl-layout__drawer mdl-layout">
-			<span class="mdl-layout-title">Atletica Unisal</span>
+		<div class="android-drawer mdl-layout__drawer">
+			<span class="mdl-layout-title">
+				<img class="atletica-logo-image" src="img/logo.png">
+			</span>
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="">Esportes</a>
-				<a class="mdl-navigation__link" href="">Vendas de ingresso</a>
-				<a class="mdl-navigation__link" href="">Notas oficiais</a>
-				<a class="mdl-navigation__link" href="">Calendário da Atlética</a>
+				<span class="mdl-navigation__link" href="">Principal</span>
+				<a class="mdl-navigation__link" href="index.html">Pagina Inicial</a>
+				<a class="mdl-navigation__link" href="galeria.html">Galeria</a>
+				<a class="mdl-navigation__link" href="noticias.html">Noticias</a>
+				<a class="mdl-navigation__link" href="calendario.html">Calendário da Atlética</a>
+				<div class="atletica-drawer-separator"></div>
+				<span class="mdl-navigation__link" href="">Modalidades</span>
+				<a class="mdl-navigation__link" href="">Futebol</a>
+				<a class="mdl-navigation__link" href="">Futsal Masculino</a>
+				<a class="mdl-navigation__link" href="">Futsal Feminino</a>
+				<a class="mdl-navigation__link" href="">Handball Masculino</a>
+				<a class="mdl-navigation__link" href="">Handball Feminino</a>
+				<a class="mdl-navigation__link" href="">Basketball</a>
 			</nav>
 		</div>
 
 		<main class="mdl-layout__content">
+			<div class="altetica-descricao-section">
+				<div class="page-content">
+					<div class="mdl-grid">
+						<div class="mdl-cell mdl-cell--1-col"></div>
+						<div class="mdl-cell mdl-cell--5-col espacamento">
+
+							<img class="tubarao" src="img/tubarao.png">
+
+						</div>
+						<div class="mdl-cell mdl-cell--5-col logo-font espacamento">
+
+							<p>A Atletica unisal fundada em ..... representada pelo Tubarão é a atletica da Universidade De São Paulo de Lorena-sp ... </p>
+							
+						</div>
+						<div class="mdl-cell mdl-cell--1-col"></div>
+					</div>
+					<a href="#screens">
+						<button class="atletica-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+							<i class="material-icons">expand_more</i>
+						</button>
+					</a>
+				</div>
+			</div>
+			<a name="screens"></a>
 			<div class="page-content">
 				<div class="mdl-grid">
 					<div class="mdl-cell mdl-cell--1-col"></div>
-					<div class="mdl-cell mdl-cell--5-col">
-						<div class="card-atletica-juv mdl-card mdl-shadow--2dp">
-							<div class="mdl-card__title mdl-card--expand">
-								<h2 class="mdl-card__title-text">Juv se aproxima</h2>
-							</div>
-							<div class="mdl-card__supporting-text">
-								Com cada vez menos tempo, time da unisal tem foco total nas ultimas semanas de treino.
-							</div>
-							<div class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-									Ver mais
-								</a>
-							</div>
-						</div>
+					<div class="mdl-cell mdl-cell--5-col logo-font espacamento">
 
+						<p>A Atletica unisal fundada em ..... representada pelo Tubarão é a atletica da Universidade De São Paulo de Lorena-sp .
+
+
+							O trecho padrão original de Lorem Ipsum, usado desde o século XVI, está reproduzido abaixo para os interessados. Seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" de Cicero também foram reproduzidas abaixo em sua forma exata original, acompanhada das versões para o inglês da tradução feita por H. Rackham em 1914.
+						</p>
 					</div>
+					<div class="mdl-cell mdl-cell--5-col espacamento">
 
-					<div class="mdl-cell mdl-cell--5-col">
-						<div class="card-atletica-futsal mdl-card mdl-shadow--2dp">
-							<div class="mdl-card__title mdl-card--expand">
-								<h2 class="mdl-card__title-text">Atletica Campeã de futsal</h2>
-							</div>
-							<div class="mdl-card__supporting-text">
-								O time de futsal do tubarão foi campeã na dificil vitoria...
-							</div>
-							<div class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-									Ver mais
-								</a>
-							</div>
-						</div>
+						<img class="tubarao" src="img/jogador.png">
 
 					</div>
 					<div class="mdl-cell mdl-cell--1-col"></div>
+				</div>
+			</div>
 
-					<div class="mdl-cell mdl-cell--1-col"></div>
-					<div class="mdl-cell mdl-cell--10-col">
-						<div class="card-atletica-agasalho mdl-card mdl-shadow--2dp">
-							<div class="mdl-card__title mdl-card--expand">
-								<h2 class="mdl-card__title-text">Campanha do agasalho</h2>
-							</div>
-							<div class="mdl-card__supporting-text">
-								Nesse inverno, vista quem realmente precisa.
-							</div>
-							<div class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-									Ver mais
-								</a>
-							</div>
-						</div>
 
+			<div class="atletica-wear-section">
+				<div class="atletica-wear-band">
+					<div class="atletica-wear-band-text">
+						<div class="mdl-typography--display-2 mdl-typography--font-thin">Nossas festas.</div>
+						<p class="mdl-typography--headline mdl-typography--font-thin">
+							Temos as melhores festas Universitarias do Vale do Paraiba, em parceria com o macaco e o cenario nós fazemos as melhores chopadas
+						</p>
 					</div>
-					<div class="mdl-cell mdl-cell--1-col"></div>
-
 				</div>
 			</div>
 			
+			<div class="page-content">
+				<div class="mdl-grid">
+					<div class="mdl-cell mdl-cell--1-col"></div>
 
-			
+					<div class="mdl-cell mdl-cell--5-col espacamento">
+
+						<img class="tubarao" src="img/social.png">
+
+					</div>
+					<div class="mdl-cell mdl-cell--5-col logo-font espacamento">
+
+						<p>A Atletica unisal ajude em diversos projetos sociais, como campanha do agasalho ..... venha fazer parte e ajudar quem precisa.
+						</p>
+					</div>
+					
+					<div class="mdl-cell mdl-cell--1-col"></div>
+				</div>
+			</div>
+
+
 
 
 
@@ -145,7 +170,7 @@
 					<div class="mdl-logo">
 						Mais informações
 					</div>
-					
+
 				</div>
 				<div class="mdl-mini-footer--left-section">
 					<button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
@@ -169,14 +194,14 @@
 	</div>
 
 	<script type="text/javascript">
-		var goFacebook = function(local){
-			var link = 'https://www.facebook.com/' + local;
-			window.open(link);
-		};
-		var goInstagram = function(local){
-			var link = 'https://www.instagram.com/' + local;
-			window.open(link)
-		};
+	var goFacebook = function(local){
+		var link = 'https://www.facebook.com/' + local;
+		window.open(link);
+	};
+	var goInstagram = function(local){
+		var link = 'https://www.instagram.com/' + local;
+		window.open(link)
+	};
 	</script>
 
 </body>
